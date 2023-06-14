@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(26, 25, 25);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.post {
+    background-color: whitesmoke;
+    width: 450px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.image {
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img {
+    max-width: 30%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    font-size: 2;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: space-between;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.input {
+    color: gray;
+    background-color: whitesmoke;
+    font-family: 'Bona Nova', serif;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send {
+    font-family: 'Bona Nova', serif;
+    font-weight: bold;
+}
